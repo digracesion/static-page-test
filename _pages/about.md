@@ -1,8 +1,6 @@
 ---
 layout: about
 title: about
-nav: true
-nav_order: 1
 permalink: /
 subtitle: QA Engineer | Photographer | Writer
 
@@ -15,7 +13,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hi, welcome to my blog!
