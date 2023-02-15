@@ -175,6 +175,18 @@
         {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.behance_id -%}
+        {%- capture link -%}https://behance.net/{{ site.behance_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.wantedly_id -%}
+        {%- capture link -%}https://wantedly.com/id/{{ site.wantedly_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.wordpress_id -%}
+        {%- capture link -%}https://grayinfilm.com {%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}

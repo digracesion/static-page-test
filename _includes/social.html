@@ -94,3 +94,12 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+            {%- if site.behance_id -%}
+            <a href="https://behance.net/{{ site.behance_id }}" title="Behance"><i class="fas fa-behance"></i></a>
+            {% endif %}
+            {%- if site.wantedly_id -%}
+            <a href="https://wantedly.com/id/{{ site.wantedly_id }}" title="Wantedly"><i class="fas fa-link"></i></a>
+            {% endif %}
+            {%- if site.wordpress_id -%}
+            <a href="https://grayinfilm.com" title="Wordpress"><i class="fas fa-wordpress"></i></a>
+            {% endif %}

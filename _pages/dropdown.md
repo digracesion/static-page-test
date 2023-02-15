@@ -1,13 +1,13 @@
 ---
 layout: page
-title: God's Menu
+title: portfolio
 nav: true
-nav_order: 6
+nav_order: 5
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: fiction
+      permalink: /fiction/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: non-fiction
+      permalink: /non-fiction/
 ---
